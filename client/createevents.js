@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, TextInput, KeyboardAvoidingView, Button} from "react-native";
+import { Text, View, TextInput, KeyboardAvoidingView, Button, ScrollView, StyleSheet, Dimensions} from "react-native";
                 
 
 export default class Createevents extends React.Component {
@@ -44,24 +44,24 @@ export default class Createevents extends React.Component {
     }
 
     myFunctions(){
-        this.creat();
+        this.create();
+        this.props.showProfile();
         this.setState({created: true});
         this.setState({ShowOrgprofile: true});
     }
 
     goCreate () {
         
-            return <View>
-                <Text style={{fontWeight: "bold", textAlign: "center", marginBottom: 10}}> Creat </Text>
+            return <View style = {{alignItems: "center", marginTop: 10}}>
         
-                <Text>eventname:</Text>
+                <Text style = {{fontWeight:"bold"}}>Event Name:</Text>
                 <TextInput
                     style={{height: 50, width: 200 }}
                     placeholder="Enter eventname"
                     returnKeyType = "next"
-                    onChangeText={(eventname) => this.setState({eventname})}
+                    onChangeText={(name) => this.setState({name})}
                 />
-                <Text>description:</Text>
+                <Text style = {{fontWeight:"bold"}}>Description:</Text>
                 <TextInput
                     style={{height: 50, width: 200}}
                     placeholder="desctiption"
@@ -69,7 +69,7 @@ export default class Createevents extends React.Component {
                     
                     onChangeText={(desctiption) => this.setState({desctiption})}
                 />
-                <Text>location:</Text>
+                <Text style = {{fontWeight:"bold"}}>Location:</Text>
                 <TextInput
                     style={{height: 50, width: 200}}
                     placeholder="location"
@@ -77,7 +77,7 @@ export default class Createevents extends React.Component {
                     
                     onChangeText={(location) => this.setState({location})}
                 />
-                <Text>time:</Text>
+                <Text style = {{fontWeight:"bold"}}>Time:</Text>
                 <TextInput
                     style={{height: 50, width: 200}}
                     placeholder="time"
@@ -85,15 +85,7 @@ export default class Createevents extends React.Component {
                     
                     onChangeText={(time) => this.setState({time})}
                 />
-                <Text>duration:</Text>
-                <TextInput
-                    style={{height: 50, width: 200}}
-                    placeholder="duration"
-                    returnKeyType = "next"
-                    
-                    onChangeText={(duration) => this.setState({duration})}
-                />
-                <Text>agelimit:</Text>
+                <Text style = {{fontWeight:"bold"}}>Age Limit:</Text>
                 <TextInput
                     style={{height: 50, width: 200}}
                     placeholder="agelimit"
@@ -101,7 +93,7 @@ export default class Createevents extends React.Component {
                     
                     onChangeText={(agelimit) => this.setState({agelimit})}
                 />
-                <Text>volunteers:</Text>
+                <Text style = {{fontWeight:"bold"}}>Max Number of Volunteers:</Text>
                 <TextInput
                     style={{height: 50, width: 200}}
                     placeholder="volunteers"
@@ -109,7 +101,9 @@ export default class Createevents extends React.Component {
                     
                     onChangeText={(volunteers) => this.setState({volunteers})}
                 />
+                <View style = {{marginTop: 10}}>
                 <Button title = "submit" onPress = {this.myFunctions.bind(this)} />
+                </View>
             </View>;
         }
     
@@ -122,6 +116,11 @@ export default class Createevents extends React.Component {
             <View>
                 {this.goCreate()}
             </View>
+            
         );
     }
 }
+
+
+
+

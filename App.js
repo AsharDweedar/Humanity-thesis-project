@@ -1,41 +1,43 @@
 import React from 'react';
 import conf from './config.js';
 import { StyleSheet, Text, View, AppRegistry, Image, KeyboardAvoidingView, TouchableOpacity, Dimensions, Button} from 'react-native';
-import SignUp from './client/signUp';
-import SignIn from './client/signIn';
-import Createevents from './client/createevents';
-import List from './client/list';
 
-import Navbar from './client/navbar';
+import SignUp from './client/signUp';
+import OrgSignUp from './client/orgSignUp';
+import UserSignUp from './client/userSignUp';
+
+import SignIn from './client/signIn';
+import SignInOrg from './client/SignInOrg';
+import LogInUsers from './client/logInUsers';
+
 export default class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      showSignIn: false,
-      showSignUp: false,
+ constructor() {
+   super();
+   this.state = {
+     showSignIn: false,
+     showSignInOrg: false,
+     showSignInUser: false,
+
+     showSignUp: false,
+     showSignUpOrg: false,
+     showSignUpUser: false,
+     
+     current: "showMain",
+
       showMain: true,
       isLogged: false,
       type:"",
       info: {}
     };
-    const width = Dimensions.get('window').width
-    const height = Dimensions.get('window').height
+    // const width = Dimensions.get('window').width
+    // const height = Dimensions.get('window').height
   }
-  signin = () => {
-    this.setState({ showSignUp: false});
-    this.setState({ showSignIn: true});
-    this.setState({ showMain: false });
+  show  (toShow)  {
+    this.state[this.state.current] = false ;
+    this.state[toShow] =  true ;
+    this.setState({current : toShow});
+    
   }; 
-  signup = () => {
-    this.setState({ showSignUp: true });
-    this.setState({ showSignIn: false });
-    this.setState({ showMain: false });
-  };
-
-  
-  
-
-
 
   // isLoggedIn () {
   //   fetch(conf.url + '/isLoggedIn',
@@ -52,51 +54,49 @@ export default class App extends React.Component {
   //    });
   // }
 
-  goBack (){
-    this.setState({ showSignUp: false });
-    this.setState({ showSignIn: false });
-    this.setState({ showMain: true });
-  }
-
   main() {
  
   const mainComponent =  
-        <View >
-        <Image source={require('./images/32799248.png')}/>
-        <Text >Welcom to our application 'Humanity' If you are from our family</Text>
-        <Text > and you want to signIn WELCOM from here press on signIn</Text>
+        <View style={{marginTop: 30, marginLeft:70,marginRight:50, alignContent:"center"}} >
+        <Image source={require('./images/200x200-icon-drop.png')} style={{marginTop: 30, marginLeft:10}}/>
+   
+        <Text style={{fontSize:18,marginTop:20,fontStyle:'italic', marginLeft:10}}>
+         “One Love, One Heart, One Destiny.”{'\n'}-B.M.</Text>
+       <Text style={{fontSize:18,marginTop:20,fontStyle:'italic', marginLeft:10}}>Join Us To Help Make the World a Better Place{'\n'}{'\n'}</Text>
+       <View style={{marginRight:15}}>
+        <Button title="Sign In" onPress={() => this.show("showSignIn")} />
+        <Text>{'\n'}</Text>
+        <Button title="Sign Up" onPress={() => this.show("showSignUp")} />
+        </View> 
+     </View>
 
-        <TouchableOpacity onPress={this.signin.bind(this)}>
-          <Text>Sign In</Text>
-        </TouchableOpacity>
-        <Text> Or if you want to JOIN US WELLCOM from here</Text>
-        <TouchableOpacity onPress={this.signup.bind(this)}>
-          <Text>Sign Up</Text>
-        </TouchableOpacity>
-      </View>
 
-  if (this.state.showSignIn && !this.state.showMain && !this.state.showSignUp) {
-    return <SignIn/>;
-  }
-  else if(!this.state.showSignIn && this.state.showMain && !this.state.showSignUp){
-    return mainComponent;
-     
-  }
-  else if(this.state.showSignUp && !this.state.showMain && !this.state.showSignIn) {
-    return <SignUp/>;
-  }
+ if (this.state.showMain) {
+   return mainComponent;
+ } else if (this.state.showSignIn) {
+   return <SignIn show = {this.show.bind(this)} />;
+ } else if (this.state.showSignInUser) {
+   return <LogInUsers show = {this.show.bind(this)} />;
+ } else if (this.state.showSignInOrg) {
+   return <SignInOrg show = {this.show.bind(this)} />;
+ } else if(this.state.showSignUp) {
+   return <SignUp show = {this.show.bind(this)} />;
+ } else if(this.state.showSignUpOrg) {
+   return <OrgSignUp show = {this.show.bind(this)} />;
+ } else if(this.state.showSignUpUser) {
+   return <UserSignUp show = {this.show.bind(this)} />;
+ } else {
+   return  null;
+ }
 }
 
-  render() {
-    return (
-      <View>
-       {this.main()}
-       <Text>{'\n'}{'\n'}</Text>
-       <Button title = "BACK TO HOME PAGE" style = {{marginTop:100}} onPress = {this.goBack.bind(this)}/>
-      </View>
-    );
-  }
+ render() {
+   return (
+     <View>
+      {this.main()}
+     </View>
+   );
+ }
 }
-
 
 AppRegistry.registerComponent('App', () => App);

@@ -1,0 +1,2007 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Client test After User press on User Signin should see a new component to fill his informations and press Signin 1`] = `<logInUseres />`;
+
+exports[`Client test After org press on creat new event should see new component to fill event infos and press submit 1`] = `
+<View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontWeight": "bold",
+          "marginBottom": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+       Creat 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      eventname:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Enter eventname"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      description:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="desctiption"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      location:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="location"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      time:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="time"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      duration:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="duration"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      agelimit:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="agelimit"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      volunteers:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="volunteers"
+      returnKeyType="go"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <View
+      accessibilityComponentType="button"
+      accessibilityLabel={undefined}
+      accessibilityTraits={
+        Array [
+          "button",
+        ]
+      }
+      accessible={true}
+      collapsable={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "padding": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          submit
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Client test After org press on create event should see new component to fill the new event informations 1`] = `
+<View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontWeight": "bold",
+          "marginBottom": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+       Creat 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      eventname:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Enter eventname"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      description:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="desctiption"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      location:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="location"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      time:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="time"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      duration:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="duration"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      agelimit:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="agelimit"
+      returnKeyType="next"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    >
+      volunteers:
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="volunteers"
+      returnKeyType="go"
+      style={
+        Object {
+          "height": 50,
+          "width": 200,
+        }
+      }
+    />
+    <View
+      accessibilityComponentType="button"
+      accessibilityLabel={undefined}
+      accessibilityTraits={
+        Array [
+          "button",
+        ]
+      }
+      accessible={true}
+      collapsable={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "padding": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          submit
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Client test After org press on edit profile should see new component to fill the new informations 1`] = `
+<View>
+  <Image
+    source={1}
+  >
+    <View
+      style={
+        Object {
+          "marginLeft": 90,
+          "marginRight": 50,
+          "marginTop": 10,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 30,
+          }
+        }
+      >
+        update my profile data 
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 13,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Update Name:
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Enter New Name"
+        returnKeyType="next"
+        style={
+          Object {
+            "height": 50,
+            "width": 200,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 13,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Update Email:
+      </Text>
+      <TextInput
+        autoCapitalize="none"
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        placeholder="Enter New Email"
+        returnKeyType="next"
+        style={
+          Object {
+            "height": 50,
+            "width": 200,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 13,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Update Password:
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Enter New Password"
+        returnKeyType="go"
+        secureTextEntry={true}
+        style={
+          Object {
+            "height": 50,
+            "width": 200,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 13,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Update Description:
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Enter New Description"
+        returnKeyType="go"
+        secureTextEntry={true}
+        style={
+          Object {
+            "height": 50,
+            "width": 200,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "marginLeft": 10,
+            "marginRight": 140,
+          }
+        }
+      >
+        <View
+          accessibilityComponentType="button"
+          accessibilityLabel={undefined}
+          accessibilityTraits={
+            Array [
+              "button",
+            ]
+          }
+          accessible={true}
+          collapsable={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "padding": 8,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              submit
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Image>
+</View>
+`;
+
+exports[`Client test After org/user press on my events button should see org/user events 1`] = `
+<View>
+  <View>
+    <Image
+      source={1}
+    />
+  </View>
+</View>
+`;
+
+exports[`Client test After user press on edit profile should see new component to fill the new informations 1`] = `
+<View>
+  <Image
+    source={1}
+  >
+    <View
+      style={
+        Object {
+          "marginLeft": 90,
+          "marginRight": 50,
+          "marginTop": 10,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 30,
+          }
+        }
+      >
+        update my profile data 
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 13,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Update Username:
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Enter New Username"
+        returnKeyType="next"
+        style={
+          Object {
+            "height": 50,
+            "width": 200,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 13,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Update Email:
+      </Text>
+      <TextInput
+        autoCapitalize="none"
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        placeholder="Enter New Email"
+        returnKeyType="next"
+        style={
+          Object {
+            "height": 50,
+            "width": 200,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 13,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Update Age:
+      </Text>
+      <TextInput
+        autoCapitalize="none"
+        onChangeText={[Function]}
+        placeholder="Enter New Age"
+        returnKeyType="next"
+        style={
+          Object {
+            "height": 50,
+            "width": 200,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 13,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Update Password:
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Enter New Password"
+        returnKeyType="go"
+        secureTextEntry={true}
+        style={
+          Object {
+            "height": 50,
+            "width": 200,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "marginLeft": 10,
+            "marginRight": 140,
+          }
+        }
+      >
+        <View
+          accessibilityComponentType="button"
+          accessibilityLabel={undefined}
+          accessibilityTraits={
+            Array [
+              "button",
+            ]
+          }
+          accessible={true}
+          collapsable={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "padding": 8,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              submit
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Image>
+</View>
+`;
+
+exports[`Client test After user/org press on Events from navbar should see the events 1`] = `
+<View>
+  <Image
+    source={1}
+  />
+</View>
+`;
+
+exports[`Client test After user/org press on Org Signin should see a new component to fill orgnization informations and press Signin 1`] = `<logInOrgs />`;
+
+exports[`Client test After user/org press on Org Signup should see a new component to fill orgnization informations and press Signup 1`] = `
+<View>
+  <View>
+    <Image
+      source={1}
+    >
+      <View
+        style={
+          Object {
+            "marginLeft": 90,
+            "marginRight": 50,
+            "marginTop": 50,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "marginBottom": 30,
+            }
+          }
+        >
+           Sign Up
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 13,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Username:
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder="Enter name"
+          returnKeyType="next"
+          style={
+            Object {
+              "height": 50,
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 13,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Email:
+        </Text>
+        <TextInput
+          autoCapitalize="none"
+          keyboardType="email-address"
+          onChangeText={[Function]}
+          placeholder="Enter Email"
+          returnKeyType="next"
+          style={
+            Object {
+              "height": 50,
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 13,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Description:
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder="Enter description of your work"
+          returnKeyType="next"
+          style={
+            Object {
+              "height": 50,
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 13,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Password:
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder="Enter Password"
+          returnKeyType="go"
+          secureTextEntry={true}
+          style={
+            Object {
+              "height": 50,
+              "width": 200,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "marginLeft": 10,
+              "marginRight": 140,
+            }
+          }
+        >
+          <View
+            accessibilityComponentType="button"
+            accessibilityLabel={undefined}
+            accessibilityTraits={
+              Array [
+                "button",
+              ]
+            }
+            accessible={true}
+            collapsable={undefined}
+            hitSlop={undefined}
+            isTVSelectable={true}
+            nativeID={undefined}
+            onLayout={undefined}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID={undefined}
+            tvParallaxProperties={undefined}
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#007AFF",
+                      "fontSize": 18,
+                      "padding": 8,
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                submit
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginLeft": 10,
+              "marginRight": 140,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            
+
+            
+
+          </Text>
+          <View
+            accessibilityComponentType="button"
+            accessibilityLabel={undefined}
+            accessibilityTraits={
+              Array [
+                "button",
+              ]
+            }
+            accessible={true}
+            collapsable={undefined}
+            hitSlop={undefined}
+            isTVSelectable={true}
+            nativeID={undefined}
+            onLayout={undefined}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID={undefined}
+            tvParallaxProperties={undefined}
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#007AFF",
+                      "fontSize": 18,
+                      "padding": 8,
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                BACK
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </Image>
+  </View>
+</View>
+`;
+
+exports[`Client test After user/org press on Signin should see a new component to choose he/she vulantair or organization  1`] = `
+<View
+  keyboardVerticalOffset={0}
+  onLayout={[Function]}
+  style={
+    Array [
+      undefined,
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <View>
+    <Image
+      source={1}
+    >
+      <View
+        style={
+          Object {
+            "marginLeft": 50,
+            "marginRight": 170,
+            "marginTop": 15,
+          }
+        }
+      >
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          collapsable={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "marginTop": 200,
+              "opacity": 1,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 30,
+                "fontStyle": "italic",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+                "textAlign": "center",
+              }
+            }
+          >
+             USER 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginLeft": 50,
+            "marginRight": 170,
+            "marginTop": 15,
+          }
+        }
+      >
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          collapsable={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "marginTop": 50,
+              "opacity": 1,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 30,
+                "fontStyle": "italic",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+                "textAlign": "center",
+              }
+            }
+          >
+             ORG 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginLeft": 115,
+            "marginRight": 240,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+        >
+          
+
+          
+
+        </Text>
+        <View
+          accessibilityComponentType="button"
+          accessibilityLabel={undefined}
+          accessibilityTraits={
+            Array [
+              "button",
+            ]
+          }
+          accessible={true}
+          collapsable={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "padding": 8,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              BACK
+            </Text>
+          </View>
+        </View>
+      </View>
+    </Image>
+  </View>
+</View>
+`;
+
+exports[`Client test After user/org press on Signup should see a new component to choose he/she vulantair or organization  1`] = `
+<View
+  keyboardVerticalOffset={0}
+  onLayout={[Function]}
+  style={
+    Array [
+      undefined,
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <View>
+    <Image
+      source={1}
+    >
+      <View
+        style={
+          Object {
+            "marginLeft": 50,
+            "marginRight": 170,
+            "marginTop": 15,
+          }
+        }
+      >
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          collapsable={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "marginTop": 200,
+              "opacity": 1,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 30,
+                "fontStyle": "italic",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+                "textAlign": "center",
+              }
+            }
+          >
+            USER 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginLeft": 50,
+            "marginRight": 170,
+            "marginTop": 15,
+          }
+        }
+      >
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          collapsable={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "marginTop": 50,
+              "opacity": 1,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "white",
+                "fontSize": 30,
+                "fontStyle": "italic",
+                "fontWeight": "bold",
+                "justifyContent": "center",
+                "textAlign": "center",
+              }
+            }
+          >
+             ORG 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginLeft": 110,
+            "marginRight": 240,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+        >
+          
+
+          
+
+        </Text>
+        <View
+          accessibilityComponentType="button"
+          accessibilityLabel={undefined}
+          accessibilityTraits={
+            Array [
+              "button",
+            ]
+          }
+          accessible={true}
+          collapsable={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "padding": 8,
+                    "textAlign": "center",
+                  },
+                ]
+              }
+            >
+              BACK 
+            </Text>
+          </View>
+        </View>
+      </View>
+    </Image>
+  </View>
+</View>
+`;
+
+exports[`Client test After user/org press on user Signup should see a new component to fill his informations and press Signup 1`] = `
+<View>
+  <View>
+    <Image
+      source={1}
+    >
+      <View
+        style={
+          Object {
+            "marginLeft": 90,
+            "marginRight": 50,
+            "marginTop": 50,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "marginBottom": 30,
+            }
+          }
+        >
+           Sign Up 
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 13,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Username:
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder="Enter Username"
+          returnKeyType="next"
+          style={
+            Object {
+              "height": 50,
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 13,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Email:
+        </Text>
+        <TextInput
+          autoCapitalize="none"
+          keyboardType="email-address"
+          onChangeText={[Function]}
+          placeholder="Enter Email"
+          returnKeyType="next"
+          style={
+            Object {
+              "height": 50,
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 13,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Age:
+        </Text>
+        <TextInput
+          autoCapitalize="none"
+          onChangeText={[Function]}
+          placeholder="Enter Age"
+          returnKeyType="next"
+          style={
+            Object {
+              "height": 50,
+              "width": 200,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 13,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Password:
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder="Enter Password"
+          returnKeyType="go"
+          secureTextEntry={true}
+          style={
+            Object {
+              "height": 50,
+              "width": 200,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "marginLeft": 10,
+              "marginRight": 140,
+            }
+          }
+        >
+          <View
+            accessibilityComponentType="button"
+            accessibilityLabel={undefined}
+            accessibilityTraits={
+              Array [
+                "button",
+              ]
+            }
+            accessible={true}
+            collapsable={undefined}
+            hitSlop={undefined}
+            isTVSelectable={true}
+            nativeID={undefined}
+            onLayout={undefined}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID={undefined}
+            tvParallaxProperties={undefined}
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#007AFF",
+                      "fontSize": 18,
+                      "padding": 8,
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                submit
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginLeft": 10,
+              "marginRight": 140,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+          >
+            
+
+            
+
+          </Text>
+          <View
+            accessibilityComponentType="button"
+            accessibilityLabel={undefined}
+            accessibilityTraits={
+              Array [
+                "button",
+              ]
+            }
+            accessible={true}
+            collapsable={undefined}
+            hitSlop={undefined}
+            isTVSelectable={true}
+            nativeID={undefined}
+            onLayout={undefined}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID={undefined}
+            tvParallaxProperties={undefined}
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#007AFF",
+                      "fontSize": 18,
+                      "padding": 8,
+                      "textAlign": "center",
+                    },
+                  ]
+                }
+              >
+                BACK
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </Image>
+  </View>
+</View>
+`;
+
+exports[`Client test shows main component 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "marginLeft": 80,
+        "marginRight": 50,
+        "marginTop": 30,
+      }
+    }
+  >
+    <Image
+      source={1}
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 18,
+          "fontStyle": "italic",
+          "marginTop": 20,
+        }
+      }
+    >
+      Welcome to our application 'Humanity' If you are from our family
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 18,
+          "fontStyle": "italic",
+          "marginTop": 20,
+        }
+      }
+    >
+       and you want to signIn WELCOME from here press on signIn
+    </Text>
+    <View
+      accessibilityComponentType="button"
+      accessibilityLabel={undefined}
+      accessibilityTraits={
+        Array [
+          "button",
+        ]
+      }
+      accessible={true}
+      collapsable={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "padding": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          signIn
+        </Text>
+      </View>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 18,
+          "fontStyle": "italic",
+          "marginTop": 20,
+        }
+      }
+    >
+       Or if you want to JOIN US WELLCOM from here
+    </Text>
+    <View
+      accessibilityComponentType="button"
+      accessibilityLabel={undefined}
+      accessibilityTraits={
+        Array [
+          "button",
+        ]
+      }
+      accessible={true}
+      collapsable={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "padding": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          signUp
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

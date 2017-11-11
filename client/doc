@@ -11,3 +11,23 @@
 |.......................... user events ........org events....|
 |.......................... all events .......create event....|
 |.......................... sign out .............sign out....|
+
+#main page
+first component in our app is main page or app js which contain two button one for sign in and one for sign up 
+if use this app for the first time you should sign up which will take you to signup page 
+and chose bettwen org or user and sign up and 
+
+when you sign up then you can sign in directly
+
+#org page
+if you sign in as org you will go to the org profile which contain your information like name email and phone also it contain anavbar that pass the data and you can change your profile by editing the profile when you click on button eiditprofile 
+on click on button my event it will take you to all your events 
+and alow you to see all users in this event  
+and we you click on creat events you can creat  newevents  and with the logout you can go to sign in  again
+
+#userpage
+if you sign in as user you will go to the user profile which contain your information like name email and phone also it contain anavbar that pass the data and you can change your profile by editing the profile when you click on button eiditprofile 
+on click on button findevent it will take you to all  events if you didint filter the event by time or location but if you filter your 
+but if you put a cer
+and alow you to see all users in this event  
+and we you click on creat events you can creat  newevents  and with the logout you can go to sign in  agai         <View sty

@@ -9,19 +9,19 @@ export default class LogInUsers extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      username:'',
+      name:'',
       password:'',
       signedIn: false,
-      userInfo:{}
+      orgInfo:{}
     };
-     fetch( conf.url + '/users/signout',
+     fetch( conf.url + '/orgs/signout',
       {method:'GET'})
   }
   
     submitSignIn () { 
       
 
-     fetch(conf.url + '/users/signin',
+     fetch(conf.url + '/orgs/signin',
       {
           method:'POST',
           headers: {
@@ -29,12 +29,12 @@ export default class LogInUsers extends React.Component {
           'Content-Type': 'application/json',
           },
           body:JSON.stringify({
-            username:this.state.username ,
+            name:this.state.name ,
             password:this.state.password})
         }) .then((response) => response.json())
            .then((data) => {
-            if (data.username) {
-                this.state.userInfo = data;
+            if (data.name) {
+                this.state.orgInfo = data;
                 this.setState({signedIn: true})
               } else {
                 Alert.alert( 'SECURITY ALARM', data.message, [{text: 'OK', onPress: () => console.log('OK Pressed')}, ], { cancelable: true } )
@@ -58,7 +58,7 @@ export default class LogInUsers extends React.Component {
 goToProfile () {
 
   if(this.state.signedIn){
-    return <Navbar info = {this.state.userInfo} profile = {"user"} signOut = {this.signOut.bind(this)} />
+    return <Navbar info = {this.state.orgInfo} profile = {"org"} signOut = {this.signOut.bind(this)} />
   } else {
     return (<View>
       <Image source={require("../images/blue.jpg")} > 
@@ -68,9 +68,9 @@ goToProfile () {
           <TextInput 
               style={{height: 50, width: 200 ,alignItems: 'center'}}
               returnKeyType='next'
-              placeholder="Enter Yuor Username"
-              onChangeText={(username) => this.setState({username})}
-              value={this.state.username}
+              placeholder="Enter Your Name"
+              onChangeText={(name) => this.setState({name})}
+              value={this.state.name}
             />
             <Text style={{fontWeight: "bold",fontSize:13,color:"white"}}>Password:</Text>
             <TextInput

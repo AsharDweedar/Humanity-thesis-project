@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, TextInput, Button} from "react-native";
+import { Text, View, TextInput, Button,Image} from "react-native";
 import conf from "../config";
 import UserProfile from './userprofile';
 
@@ -12,7 +12,8 @@ export default class UserEditProf extends React.Component {
       email: "",
       age:"",
       password: "",
-      submitEdite : false 
+      submitEdite : false ,
+      data : {} 
     };
   }
 
@@ -30,9 +31,10 @@ export default class UserEditProf extends React.Component {
         password:this.state.password
       })
     })
-      .then((response) => console.log(response))
-      .then((data) => {
-       console.log(data);
+      .then((response) => response.json())
+      .then((res) => {
+       console.log(res);
+       this.setState({data: res.data})
        this.setState({submitEdite:true});
       })
       .catch((error) => {
@@ -41,18 +43,26 @@ export default class UserEditProf extends React.Component {
   }
 
   render() {
+    if (this.state.submitEdite) {
+      this.props.showProfile(this.state.data);
+      return null;
+    }
 
-    const editprofile = <View style = {{marginTop:200, alignItems: "center" }}>
-      <Text style={{fontWeight: "bold", textAlign: 'center', marginBottom: 10}}> update my profile data </Text>
+    const editprofile = <View>
+      <Image source={require("../images/blue.jpg")} > 
+      <View style = {{alignItems: "center", marginRight: 120, marginTop: 40}}>
+          <Text style={{fontWeight: "bold", marginBottom: 30,fontSize:20,color:"white"}}> 
+
+       Update Profile</Text>
       
-      <Text style = {{marginRight:130}}>Update Username:</Text>
+      <Text style={{fontWeight: "bold",fontSize:13,color:"white"}}>Update Username:</Text>
       <TextInput
         style={{height: 50, width: 200 }}
         placeholder="Enter New Username"
         returnKeyType = "next"
         onChangeText={(username) => this.setState({username})}
       />
-      <Text style = {{marginRight:160}}>Update Email:</Text>
+      <Text style={{fontWeight: "bold",fontSize:13,color:"white"}}>Update Email:</Text>
       <TextInput
         style={{height: 50, width: 200}}
         placeholder="Enter New Email"
@@ -61,16 +71,15 @@ export default class UserEditProf extends React.Component {
         autoCapitalize = "none"
         onChangeText={(email) => this.setState({email})}
       />
-      <Text style = {{marginRight:160}}>Update Age:</Text>
+      <Text style={{fontWeight: "bold",fontSize:13,color:"white"}}>Update Age:</Text>
        <TextInput
         style={{height: 50, width: 200}}
         placeholder="Enter New Age"
         returnKeyType = "next"
-        keyboardType = "phone"
         autoCapitalize = "none"
         onChangeText={(age) => this.setState({age})}
       />
-      <Text style = {{marginRight:130}}>Update Password:</Text>
+      <Text style={{fontWeight: "bold",fontSize:13,color:"white"}}>Update Password:</Text>
       <TextInput
         style={{height: 50, width: 200}}
         placeholder="Enter New Password"
@@ -78,12 +87,13 @@ export default class UserEditProf extends React.Component {
         secureTextEntry = {true}
         onChangeText={(password) => this.setState({password})}
       />
+       <View style={{marginTop: 20}}>
       <Button title = "submit" onPress = {this.onUpdate.bind(this)} />
-    </View>
+      </View>
+          </View>
+          </Image>
+          </View>
 
-    if(this.state.submitEdite){
-      return <UserProfile/>;
-    }
     return editprofile;
   }  
     
